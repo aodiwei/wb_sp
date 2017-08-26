@@ -30,7 +30,7 @@ class UserInfoCrawl(Spider):
     name = "weibo_user_info"
     # allowed_domains = ["weibo.cn"]
 
-    def __init__(self, name="adwking@sina.com", password="AOdiW880721", uid="1709818975", *args, **kwargs):
+    def __init__(self, name="xxxx@sina.com", password="xxxxx", uid="09424248189", *args, **kwargs):
         super(UserInfoCrawl, self).__init__(*args, **kwargs)
         self.uid = uid
         self.start_urls = ["http://weibo.com"]
